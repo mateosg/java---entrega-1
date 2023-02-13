@@ -1,0 +1,1 @@
+Desde Eclipse, crea en este directorio el paquete 'geometria', y dentro de este paquete, el record 'Vector2D'
