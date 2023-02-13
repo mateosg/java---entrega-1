@@ -39,5 +39,6 @@ Complete el tipo `Vector2D` con la siguiente descripción:
 - Pruebe algunos de las propiedades y métodos anteriores (como mínimo tres pruebas, entre ellas debe estar obligatoriamente *proyectaSobre*). Puede usar el método *dibuja* de la clase *VectorDisplay* para ver el resultado en pantalla.
 - Use el método *dibuja* de la clase *VectorDisplay* para hacer el dibujo que se muestra a continuación. Puede tomar como referencia, un primer vector de coordenadas `1.0,1.0`
 
+![equis](equis.png)
 
 Recuerde que todos los proyectos pasaran una prueba anti-plagio.
