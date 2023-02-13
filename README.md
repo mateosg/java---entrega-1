@@ -1,6 +1,6 @@
 # Entrega 1
 
-Una vez clonado el repo desde Eclipse, cree un paquete de nombre `geometria`, y dentro, cree un **record** de nombre `Vector2D`. Si activa la casilla para la generación del método `public static void main(String[] args)`, podrá hacer las pruebas en el mismo record.
+Una vez clonado el repo desde Eclipse, cree cree un **record** de nombre `Vector2D` dentro del paquete `geometria`. Si activa la casilla para la generación del método `public static void main(String[] args)`, podrá hacer las pruebas en el mismo record.
 
 Hecho lo anterior, realice los siguientes ejercicios:
 
