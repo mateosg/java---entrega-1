@@ -33,7 +33,7 @@ Complete el tipo `Vector2D` con la siguiente descripción:
 
 **Otros métodos:**
 
-- `multiplyEscalar(Vector2D v)`: Devuelve el producto escalar con el vector que se pasa como parámetro. Para ello, puede realizar el siguiente cálculo: `x*v.x + y*v.y`
+- `productoEscalar(Vector2D v)`: Devuelve el producto escalar con el vector que se pasa como parámetro. Para ello, puede realizar el siguiente cálculo: `x*v.x + y*v.y`
 - `proyectaSobre(Vector2D v)`: Devuelve un vector que es la proyección sobre el que se pasa como parámetro. Para ello, puede realizar el siguiente cálculo: `v.unitario().mul(multiplyEscalar(v.unitario()))`
 ## Ejercicio 2
 - Pruebe algunos de las propiedades y métodos anteriores (como mínimo tres pruebas, entre ellas debe estar obligatoriamente *proyectaSobre*). Puede usar el método *dibuja* de la clase *VectorDisplay* para ver el resultado en pantalla.
