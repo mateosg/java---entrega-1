@@ -14,7 +14,7 @@ Complete el tipo `Vector2D` con la siguiente descripción:
 - `y`, de tipo `Double`.
 - `modulo`, de tipo `Double`, derivada. La fórmula para calcular el módulo es la siguiente: `Math.sqrt(x * x + y * y)`.
 - `angulo`, de tipo `Double`, derivada. Utilice la función `Math.atan2(y, x)` para calcular el ángulo del vector.
-- `copy`, de tipo `Vector2D`, derivada (copia del vector).
+- `copia`, de tipo `Vector2D`, derivada (copia del vector).
 - `ortogonal`, de tipo `Vector2D`, derivada. Vector perpendicular. Para ello cree un objeto de coordenadas `-y, x`.
 - `unitario`, de tipo `Vector2D`, derivada. Vector de módulo 1 y mismo ángulo. 
 
@@ -34,7 +34,7 @@ Complete el tipo `Vector2D` con la siguiente descripción:
 **Otros métodos:**
 
 - `productoEscalar(Vector2D v)`: Devuelve el producto escalar con el vector que se pasa como parámetro. Para ello, puede realizar el siguiente cálculo: `x*v.x + y*v.y`
-- `proyectaSobre(Vector2D v)`: Devuelve un vector que es la proyección sobre el que se pasa como parámetro. Para ello, puede realizar el siguiente cálculo: `v.unitario().mul(multiplyEscalar(v.unitario()))`
+- `proyectaSobre(Vector2D v)`: Devuelve un vector que es la proyección sobre el que se pasa como parámetro. Para ello, puede realizar el siguiente cálculo: `v.unitario().mul(productoEscalar(v.unitario()))`
 ## Ejercicio 2
 - Pruebe algunos de las propiedades y métodos anteriores (como mínimo tres pruebas, entre ellas debe estar obligatoriamente *proyectaSobre*). Puede usar el método *dibuja* de la clase *VectorDisplay* para ver el resultado en pantalla.
 - Use el método *dibuja* de la clase *VectorDisplay* para hacer el dibujo que se muestra a continuación. Puede tomar como referencia, un primer vector de coordenadas `1.0,1.0`
